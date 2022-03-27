@@ -73,7 +73,9 @@ join products as p on od.product_id = p.product_id
 join orders as o on o.orders_id = od.order_id;
 
 
+update products set name = 'mango' where product_id = 9;
 
+delete from products where product_id = 8;
 
 
 
